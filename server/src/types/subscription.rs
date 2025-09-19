@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize};
 use std::collections::HashSet;
 
 const MAX_LEVELS: usize = 200;
-pub(crate) const DEFAULT_LEVELS: usize = 20;
+pub(crate) const DEFAULT_LEVELS: usize = 200;
 
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(tag = "method")]
